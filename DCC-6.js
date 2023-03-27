@@ -14,9 +14,8 @@
 // // Your solution for 06-range here:
 
 range = (int1, int2) => {
-  if (int1 > int2){
-    return `First argument must be less than second`
-  }
+  if (int1 > int2) return `First argument must be less than second`
+  if(int1 === int2) return []
   let newArr = []
   for(let i = int1; i < int2; i++){
     newArr.push(i)
