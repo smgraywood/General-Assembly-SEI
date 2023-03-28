@@ -8,7 +8,7 @@
 // -----------------------------------------------------------------*/
 // // Your solution for 07-reverseUpcaseString here:
 
-reverseUpcaseString = (str) => {
+const reverseUpcaseString = (str) => {
 	return str.toUpperCase().split("").reverse().join("")
 }
 
@@ -17,7 +17,7 @@ console.log(reverseUpcaseString("SEI ROCKS!")) // => "!SKCOR IES"
 
 //OR
 
-reverseUpcaseString = (str) => {
+const reverseUpcaseString = (str) => {
   let output = ""
   for (let i = str.length - 1; i >= 0; i--){
     output += str[i].toUpperCase()
