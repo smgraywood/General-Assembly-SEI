@@ -14,7 +14,7 @@ Hint:  Check out the Further Study section of the JS Functions lesson regarding 
 -----------------------------------------------------------------*/
 // Your solution for 04-addList here:
 
-addList = (...nums) => {
+const addList = (...nums) => {
 let total = 0
   if (nums === undefined){
    return 0 
