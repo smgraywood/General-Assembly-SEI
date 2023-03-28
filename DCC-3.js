@@ -13,7 +13,7 @@ sumNumbers([]) //=> 0
 // Your solution for 03-sumNumbers here:
 
 let sum = 0
-sumNumbers = (arr) => {
+const sumNumbers = (arr) => {
   for(num in arr){
     return sum += arr[i] 
   }
