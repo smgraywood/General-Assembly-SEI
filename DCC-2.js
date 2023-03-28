@@ -12,7 +12,7 @@ addTwoNumbers('Hello', 5) //=> NaN
 -----------------------------------------------------------------*/
 // Your solution for 02-addTwoNumbers here:
 
-addTwoNumbers = (num1, num2) => {
+const addTwoNumbers = (num1, num2) => {
   if (num1 === Nan || num2 === Nan){
     return "NaN"
   } else {
