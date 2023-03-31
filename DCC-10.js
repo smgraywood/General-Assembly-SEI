@@ -15,7 +15,7 @@
 // -----------------------------------------------------------------*/
 // // Your solution for 10-formatWithPadding here:
 
-formatWithPadding = (num, str, padLen) => {
+const formatWithPadding = (num, str, padLen) => {
   const numStr = num.toString()
   if(numStr.length >= padLen){
     return numStr
